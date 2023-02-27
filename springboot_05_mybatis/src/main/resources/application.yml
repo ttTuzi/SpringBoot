@@ -1,0 +1,9 @@
+spring:
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost/ssm
+      username: root
+      password: wei
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
